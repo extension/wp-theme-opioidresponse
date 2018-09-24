@@ -264,7 +264,6 @@ float:left;
 #primary {width: 100%; float:left; max-width:none !important;}
 #secondary {width: 100%; float:right;}
 
-
 @media screen and (min-width: 30em) {
   .page-one-column .panel-content .wrap {
       max-width: 1000px;

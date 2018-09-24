@@ -24,15 +24,10 @@ get_header(); ?>
       $term = get_queried_object();
       // echo $term->name;
 
-
       $parents = get_ancestors($term->term_id, 'md_addiction');
       $parents = array_reverse($parents);
       // print_r($parents);
 
-
-
-      // $term = get_term();
-      // echo $term->name;
       echo '<h1 class="archive-page-title">';
       echo $tax->labels->singular_name;
       foreach($parents as $parent) {
