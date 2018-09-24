@@ -12,34 +12,30 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 :root {
   /* DEI Competencies - Indigo */
-  --dei_competency-light: #e8eaf6;
-  --dei_competency-medium: #7986cb;
-  --dei_competency-dark: #3f51b5;
+  --approach_type-light: #e8eaf6;
+  --approach_type-medium: #7986cb;
+  --approach_type-dark: #3f51b5;
 
   /* DEI Issue Type - Blue */
-  --dei_issue_type-light: #e3f2fd;
-  --dei_issue_type-medium: #64b5f6;
-  --dei_issue_type-dark: #1e88e5;
+  --format-light: #e3f2fd;
+  --format-medium: #64b5f6;
+  --format-dark: #1e88e5;
 
   /* DEI Activity - Cyan */
-  --dei_activity-light: #e0f7fa;
-  --dei_activity-medium: #4dd0e1;
-  --dei_activity-dark: #0097a7;
+  --response_type-light: #e0f7fa;
+  --response_type-medium: #4dd0e1;
+  --response_type-dark: #0097a7;
 
   /* DEI Assessment - Teal */
-  --dei_assessment-light: #e0f2f1;
-  --dei_assessment-medium: #80cbc4;
-  --dei_assessment-dark: #00796b;
+  --targeted_audience-light: #e0f2f1;
+  --targeted_audience-medium: #80cbc4;
+  --targeted_audience-dark: #00796b;
 
   /* DEI Accountability - Light Green */
-  --dei_accountability-light: #f1f8e9;
-  --dei_accountability-medium: #9ccc65;
-  --dei_accountability-dark: #689f38;
+  --md_addiction-light: #f1f8e9;
+  --md_addiction-medium: #9ccc65;
+  --md_addiction-dark: #689f38;
 
-  /* DEI Tool or Resource - Green */
-  --dei_tool_or_resource-light: #e8f5e9;
-  --dei_tool_or_resource-medium: #66bb6a;
-  --dei_tool_or_resource-dark: #388e3c;
 }
 
 #custom_archive h1 {font-size: 1.4em;}
@@ -176,46 +172,38 @@ float:left;
 
 /* approach_type */
 .tax-approach_type .taxonomy-archive-header *,
-.taxonomy-approach_type .card-tag-header {color: var(--dei_competency-dark);}
+.taxonomy-approach_type .card-tag-header {color: var(--approach_type-dark);}
 .tax-approach_type .taxonomy-archive-header,
-.taxonomy-approach_type {background: var(--dei_competency-light); border-color: var(--dei_competency-medium);}
-.taxonomy-approach_type .resource-tag span {background: var(--dei_competency-medium);}
+.taxonomy-approach_type {background: var(--approach_type-light); border-color: var(--approach_type-medium);}
+.taxonomy-approach_type .resource-tag span {background: var(--approach_type-medium);}
 
 /* format - Blue */
 .tax-format .taxonomy-archive-header *,
-.taxonomy-format .card-tag-header {color: var(--dei_issue_type-dark);}
+.taxonomy-format .card-tag-header {color: var(--format-dark);}
 .tax-format .taxonomy-archive-header,
-.taxonomy-format {background: var(--dei_issue_type-light); border-color: var(--dei_issue_type-medium);}
-.taxonomy-format .resource-tag span {background: var(--dei_issue_type-medium);}
+.taxonomy-format {background: var(--format-light); border-color: var(--format-medium);}
+.taxonomy-format .resource-tag span {background: var(--format-medium);}
 
 /* response_type - Cyan */
 .tax-response_type .taxonomy-archive-header *,
-.taxonomy-response_type .card-tag-header {color: var(--dei_activity-dark);}
+.taxonomy-response_type .card-tag-header {color: var(--response_type-dark);}
 .tax-response_type .taxonomy-archive-header,
-.taxonomy-response_type {background: var(--dei_activity-light); border-color: var(--dei_activity-medium);}
-.taxonomy-response_type .resource-tag span {background: var(--dei_activity-medium);}
+.taxonomy-response_type {background: var(--response_type-light); border-color: var(--response_type-medium);}
+.taxonomy-response_type .resource-tag span {background: var(--response_type-medium);}
 
 /* targeted_audience - Teal */
 .tax-targeted_audience .taxonomy-archive-header *,
-.taxonomy-targeted_audience .card-tag-header {color: var(--dei_assessment-dark);}
+.taxonomy-targeted_audience .card-tag-header {color: var(--targeted_audience-dark);}
 .tax-targeted_audience .taxonomy-archive-header,
-.taxonomy-targeted_audience {background: var(--dei_assessment-light); border-color: var(--dei_assessment-medium);}
-.taxonomy-targeted_audience .resource-tag span {background: var(--dei_assessment-medium);}
+.taxonomy-targeted_audience {background: var(--targeted_audience-light); border-color: var(--targeted_audience-medium);}
+.taxonomy-targeted_audience .resource-tag span {background: var(--targeted_audience-medium);}
 
 /* md_addiction - Light Green */
 .tax-md_addiction .taxonomy-archive-header *,
-.taxonomy-md_addiction .card-tag-header {color: var(--dei_accountability-dark);}
+.taxonomy-md_addiction .card-tag-header {color: var(--md_addiction-dark);}
 .tax-md_addiction .taxonomy-archive-header,
-.taxonomy-md_addiction {background: var(--dei_accountability-light); border-color: var(--dei_accountability-medium);}
-.taxonomy-md_addiction .resource-tag span {background: var(--dei_accountability-medium);}
-
-/* DEI Tool or Resource - Green */
-.tax-dei_tool_or_resource .taxonomy-archive-header *,
-.taxonomy-dei_tool_or_resource .card-tag-header {color: var(--dei_tool_or_resource-dark);}
-.tax-dei_tool_or_resource .taxonomy-archive-header,
-.taxonomy-dei_tool_or_resource {background: var(--dei_tool_or_resource-light); border-color: var(--dei_tool_or_resource-medium);}
-.taxonomy-dei_tool_or_resource .resource-tag span {background: var(--dei_tool_or_resource-medium);}
-
+.taxonomy-md_addiction {background: var(--md_addiction-light); border-color: var(--md_addiction-medium);}
+.taxonomy-md_addiction .resource-tag span {background: var(--md_addiction-medium);}
 
 .card-fact-sheet {background: #f3e5f5 !important; border: 1px solid #e1bee7 !important;}
 .card-fact-sheet h2 {color: #6a1b9a !important;}
