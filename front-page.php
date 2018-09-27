@@ -13,6 +13,16 @@
  */
 
 get_header(); ?>
+
+<?php
+  $custom_fields = get_post_custom();
+  $my_custom_field = $custom_fields['gain_attention'];
+  if ((!empty($my_custom_field[0])) && (!is_wp_error($my_custom_field[0]))) { ?>
+    <div id="gain_attention">
+      <?php echo $my_custom_field[0]; ?>
+    </div>
+<?php } ?>
+
 <div class="wrap content-wrap">
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">

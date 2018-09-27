@@ -9,10 +9,6 @@
  * @since 1.0
  * @version 1.2
  */
-
-
-
-
 ?>
 <div id="post-<?php the_ID(); ?>" class="card resource-<?php echo $term_list[0]->slug; ?>">
   <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">

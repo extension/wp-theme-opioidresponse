@@ -38,6 +38,71 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 }
 
+.wp-custom-header img {
+	opacity:0.7;
+}
+.custom-header-media {
+	background-color:#555;
+}
+.site-branding-text .site-title {
+	text-shadow: 0 2px 6px #000000;
+}
+
+.info-card {
+    /*box-shadow: 2px 2px 6px #999;*/
+    padding: 1em;
+    margin: 10px;
+    min-width: 200px;
+    height: 250px;
+    height: auto;
+    border: 1px solid #ccc;
+    flex: 1;
+    flex: 1 0 calc(33.333% - 20px);
+}
+
+/*Responsive video wrapper*/
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed,
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#gain_attention {
+	 background-color: rgb(240, 240, 240);
+   font-size: 24px;
+   margin-bottom: 10px;
+   display: block;
+   color:white;
+	padding: 0;
+	margin: 0
+}
+#gain_attention > div {
+	width: 67%;
+	max-width: 960px;
+	margin: 10px auto;
+}
+
+@media (max-width: 599px) {
+	#gain_attention > div {
+		width: 100%;
+	}
+}
+
 #custom_archive h1 {font-size: 1.4em;}
 .entry-title {font-size:1.25em !important;}
 .single-extension_resource .entry-header {padding: 0 !important;}
@@ -76,8 +141,6 @@ li li li {
 .site-branding-text .site-title {
 	text-shadow: 0 2px 6px #000000;
 }
-
-
 
 .homepage-card {background: #eee;
 padding: 1em;
